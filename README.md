@@ -1,2 +1,4 @@
 # upper-lower-capitalize
-Low level implementation of 3 string functions(uppercase, lowercase, capitalize) without using any high level function
+Functions only works with ASCII characters.
+
+See [Ascii table](https://asciichart.com/) for details.
