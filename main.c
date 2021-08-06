@@ -17,6 +17,7 @@ int string_equal(char *, char *);
 
 int main(void) {
     char *test_strings[] = {"TEST", "test", "Test", "TesT", "tEsT", "teST", "teSt"};
+    /* char test_strings[][5] = {"TEST", "test", "Test", "TesT", "tEsT", "teST", "teSt"}; */
     for (int i = 0; i < 7; i++) {
         char *string = to_uppercase(test_strings[i]);
         assert(string_equal(string, "TEST"));
